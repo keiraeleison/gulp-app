@@ -1,31 +1,25 @@
-/**
- * To start the app and watch for file changes
- */
+## To start the app and watch for file changes ##
 
     gulp
 
-/**
- * Gulp will also:
- *  - compile sass to css,
- *  - sourcemap, minify, autoprefix and merge css files,
- *  - transpile ES6 js code to ES5,
- *  - merge and minify js files,
- *  - refresh your browser when detecting any changes.
- * All of these can be found under ./gulpfile.js
- */
+### Gulp will: ###
+* compile sass to css,
+* sourcemap, minify, autoprefix and merge css files,
+* transpile ES6 js code to ES5,
+* merge and minify js files,
+* refresh your browser when detecting any changes.
+All of these can be found under *gulpfile.js*
 
+ 
 
-
-/**
- * Installed packages and what are they used for
- */
+## Installed packages and what are they used for ##
 
     npm install --save-dev gulp
 
     npm install gulp-load-plugins
       // automatically load plugins if there are several 
 
-// Plugins for Css
+### Plugins for Css ###
 
     npm install gulp-sass --save-dev 
 
@@ -42,7 +36,7 @@
       // Like --mozilla-bla-bla in css
 
 
-// Plugins for JS
+###  Plugins for JS ###
 
     npm install gulp-uglify --save-dev
       // minify js files
@@ -53,6 +47,6 @@
     npm install gulp-babel --save-dev babel-preset-es2015
       // transpile ES6 to ES5, so it is readable by all browsers
 
-// Plugin for reloading browser
+###  Plugin for refreshing the browser ###
 
     npm install browser-sync --save-dev
